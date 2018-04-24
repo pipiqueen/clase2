@@ -85,3 +85,17 @@ MAS O MENOS BIEN RELACIONES 1 A 1 APARENTEMENTE
 (*----->*) tampoco esta bien
  NO ESTA BIEN QUE SE HAGA RELACIONES MUCHOS A MUCHOS
 
+represente mediante un diagrama de clase la siguietne aplicacion:
+Una aplicacion necesita ALMACENAR informacion sobre empresas, sus empleados y clientes (Los verbos tienen que ir subrayados y los sustantivos probablemente se conviertan en clases)
+Ambos se caracterizan por nombre y edad
+Empleados tienen un sueldo bruto, los empleados que son directivos tienen una categoria, asi como un conjunto de empleados subordinados. 
+De los clientes ademas se necesita tener el telefono y contacto.
+La aplicacion necesita mostrar los datos de empleados y clientes
+
+QUE ES HERENCIA
+un pilar de la programacion orientada a objetod}s
+no repite los mismos atributos
+La herencia implica que toma algo de las relaciones anteriores pero tiene algo nuevo y original
+Cliente se hereda de persona y empleado se hereda de persona
+Hereda atributos y metodos, puede tener otros atributos y metodos y tiene que tener al menos una funcionalidad mas. 
+
