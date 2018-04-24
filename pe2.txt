@@ -1,0 +1,23 @@
+git
+repositorio, tiene que haber uno por proyecto. 
+Entonces esta el master, y cada cosa que subamos va a ir guardandose en la misma rama master. La 
+primera que se crea. Siempre tiene que estar limpia de contenido, no puede tener versiones sin actualizar, 
+ni cosas sin testear. Ahi no deberian ir cosas sin probar o que no esten validadas por el cliente. Para tal
+fin se realizan ramas a lo largo del proyecto. Si se hace mas de una rama, los dos desarrolladores (x ej) 
+pueden trabajar al mismo tiempo en un mismo coso. Puede trabajar en algo que el otro no este haciendo aun
+van trabajando, lo hacen y si finalmente pueden unirlo. Esta union se llama merge. Es mas o menos la logica que tiene git
+podes borrar esas ramas, las podes modificar, despues tenes un versionado y podes acceder a las distinas ramas
+llamadas versionados, a traves de commit
+con el git bash
+preferimos usar el bash porque tiene la capacidad de usar muchos atribnuto
+mkdir: crear carpeta
+cd: ir a carpeta
+git init: hace un archivo en la carpeta elegida que define la carpeta como repositorio
+git log: para ver las cosas que estoy subiendo y que cosas subi yo y cuales mas subio el otro
+si quiero cambiar el nombre tengo que poner
+git commit --amend
+git commit (mas facil): git-m "texto"
+git remote add origin y mi url con el username
+git remote -v para ver si funciono ese remote add... aun no entiendo bien
+git push url: repo
+git checkout -v "nombre de la rama" hace una branch para seguir trabajando en otra parte del proyecto
