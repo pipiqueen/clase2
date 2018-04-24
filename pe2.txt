@@ -26,3 +26,62 @@ git merge permite mezclar las cosas que fecth, recogi
 git checkout master te manda de nuevo al master
 git log comprueba todo lo que subi
 
+UML 
+Un estandar de diagramas para representar cosas
+NO ES UN LENGUAJE
+
+La forma de hacer mas sencillos sistemas mas complejos. Es un lenguaje maquetado, son varios conjuntos de diagramas, 
+cada uno con una funcion diferente, ayuda a que visualmente con cuadritos que mas tarde vamos a ver que son clases
+puedas ver los sistemas.
+Una foto 
+que hace el ir del proyecto? el analista de sismteas, pasa al no se que sistemas, y dice bueno, aca tenes los atributos
+hay varios diagramas, diagrama de clase, cada cosita es un diagrama de clase y las flechitas son las relaciones
+puedo mostrar con el diagrama las estructuras que puedo hacer. 
+Hay dos tipos de programacion 
+la estructurada, y la orientada a objetos. Estructura puede ser c, archivos donde organizamos cosas, funciones, pedazos de codigo
+y 
+clase es una representacion de un objeto. En uml la voy a representar con un cuadrito, donde en el primer apartado se encuentra el nombre
+luego inmediatamente debajo estan los atributos, y luego estan los metodos, comportamientos de la variable
+Ejemplo
+clase: marcador
+atr: trazo, color
+met: escribe, 
+visual paradigm, hay que bajar
+Una vez hecho el diagrama permite generar un codigo basico de esto con la idea de hacer las clases y agregarle los atributos y metodos 
+vacios, (no se en que lenguaje) 
+- "nombre variable" : tipodevariable
+Eso va a permitir que cuando abra el archivo como una clase, me va a dejar el nombre, el tipo de dato y las cantidaddes
+Los guiones que vimo mas arriba (antes de "nombre variable") representa si un dato es público, privado, cosas propias de la programacion 
+orientada a objetos
+Cuando estamos haciendo nuestro sistema, no queremos que de una clase a otra podamos modificar los datos entre si, si es privado no puedo modificar la clase
+desde otra clase, esto se llama encapsulamiento, uno de los pilares de programacion orientada a objetos. Porque? para seguridad de la aplicacion,
+A traves de un metodo podes modificiar las clases privadas, esto seria (ejemplo del banco) si es privado (si tiene guion ) no puedo entrar y modificarlo.
+Si me permite usar el atributo para un metodo, puedo modificar el atributo a partir de un metodo. se hace con getters y setters. En java, hay dos metodos asociados a encapsulamiento
+getters y setters
+La diferencia es que uno setea y otro devuelve el dato. Porque cuando es privada es inaccesible al usuario, entonces no se muestran. 
+Las cosas que se asocian al metodo getter devuelven el dato que se encuentra privado. Lo hacen asi para que aunque lo puedas ver no lo puedas modificar.
+setter es el metodo para modificar el dato. Dentro de la logica le pones la funcion que quiera. Le puedo poner la funcion que quiera y ahi se actualiza. Modifica el atributo indirectamente. 
+clase.get permite acceder al getter
+y blablabla
+Publico, privado, 
+Hay varios diagramas, pueden ser dinamicos y blablabla
+hay dos grandes ramas, los estructurados y los que estan orientados a objetos. Hay 13 tipos de diagramas, para pooder decir y mostrarle al analista como queremos que funcione nuestro sistema. De eso se trata UML, ademas de poder ayudar 
+al analista, puedo jugar con varios lenguajes, java o c++ o cualquier otra cosa, y se va armando la cosa. Otro beneficio, pseudocodigo puede ser coloquial, pero uml tiene un standard, y al regirse por un estandar todos hablan el mismo lenguaje
+eso es importante tambien
+otra ventaja que tiene es que no necesita un idioma para hablar el mismo lenguaje
+Es el mas comun
+Y las relaciones entre cada cosa, por la navegabilidad y porque eso indica si podemos hacer cualquier cosa o no. Nos indica si estamos pensando bien el sistema o no. 
+Si yo tengo marcador, (ejemplo de marcador de clase) hago un diagrama con clases. 
+navegabilidad
+para poder navegar por el programa tengo que recurrir a las flechas que conectan las clases entre si. 
+relaciones
+se interpretan y aca aparece el error
+Las relaciones pueden ser de uno a uno (flecha unidireccional)
+Las relaciones 1 a 1 (1----->1) casi siempre estan mal, a veces quiere indicar que estas realizando mal la clase
+A veces puede ser quye en las elaciones 1 a 1 falte algo en el medio, por ejemplo, si estoy realizando un programa de vetna de marcadores, y tengo que coordinarlo con el punto de venta, probablemente si tiene mas de un local que me vende algo
+(1------>*) uno a muchos, es una relacion que va de uno a muchos
+(0...1 ---->1*) no se que quiere decir
+MAS O MENOS BIEN RELACIONES 1 A 1 APARENTEMENTE
+(*----->*) tampoco esta bien
+ NO ESTA BIEN QUE SE HAGA RELACIONES MUCHOS A MUCHOS
+
