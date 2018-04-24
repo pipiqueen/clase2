@@ -21,3 +21,8 @@ git remote add origin y mi url con el username
 git remote -v para ver si funciono ese remote add... aun no entiendo bien
 git push url: repo
 git checkout -v "nombre de la rama" hace una branch para seguir trabajando en otra parte del proyecto
+git fetch permite recopilar toda la informacion de la rama al master
+git merge permite mezclar las cosas que fecth, recogi
+git checkout master te manda de nuevo al master
+git log comprueba todo lo que subi
+
