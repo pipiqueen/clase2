@@ -1,0 +1,27 @@
+Fetch  puede pedir distintas versiones
+master es la version mas acabada del producto de lo que estoy haciendo. 
+checkout traer a mi repositorio 
+El servidor tiene el ultimo resguardo del codigo master y el coso x, pero donde ustedes trabajan tiene el versionado completo de subramas.
+Ramas significa. git es opuesto a SBN, que trabaja con un tronco principal y tiene varias ramas 
+LOS REPOSITORIOS DE CODIGO TRABAJAN DE la siguiente manera. De forma comparativa
+SVN: cvs (current version system)
+Dos formas de alojar codigos, Dos tipos de versionamiento donde uno lo hace, SVN parte de un arbol principal
+baja a ramas y las ramas bajan a tags. Como trabaja, hay una rama principal, un arbol. El factor de inicio
+Dentro de eso tenemos las ramas que hacen dreferencia a proyectosy los proyectos hacen referencia a no se que de codigo
+El tag viene a ser una version estable de una rama. 
+Las ramas pueden contar con subramas pequeñas sobre la rama principaly cuando se genera un codigo estable se egenera un tag
+y el tag puede ser de la rama principal o de una subrama.
+La rama principal es una suite de proyectos. Podriamos tener el proyecto para cocacola, sancor, etc. 
+SVN (Tortoise, bueno esas cosas) es opuesto, porque tiene TODO EL CODIGO ESTA EN UN SERVIDOR, se conecta uno de forma remota desde su pc y pide 
+desde la pc la rama, con el branch y tag correspondiente a nuestra maquina
+CVS (GIT) cada una de las laptops o cada pc de escritorio que este usando es un servidor, sin embargo, el servidor fisico, o la nube es el 
+respaldo del master. 
+Master es la ultima copia fiel y estable
+origin es el principio de proyecto. 
+UML
+Es un lenguaje intermedio, graficado para cuando estan planteando soluciones entre distintos desarrolladores que utilizan diferentes 
+lenguajes, para ponerse de acuerdo es preciso graficarlo en un idioma comun
+El mundo uml se suele dividir en dos partes, nombre de clase por un lado, atributos por otro, ademas metodos.
+Para pensar en objetos necesitan tener, saber de que tipo de sistema vamos a hacer, A QUE NEGOCIO LO APUNTAMOS  para saber como se van
+a relacionar las clases, ya sea con cardinalidad directa, o por extension (los distintos tipos de flechita) si no tenemos bien claro que 
+vamos a realizar
