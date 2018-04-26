@@ -25,3 +25,31 @@ El mundo uml se suele dividir en dos partes, nombre de clase por un lado, atribu
 Para pensar en objetos necesitan tener, saber de que tipo de sistema vamos a hacer, A QUE NEGOCIO LO APUNTAMOS  para saber como se van
 a relacionar las clases, ya sea con cardinalidad directa, o por extension (los distintos tipos de flechita) si no tenemos bien claro que 
 vamos a realizar
+Si tengo vehiculo, puedo realizar una herencia de clases, porque es mejor que un auto
+Si tienen funcionalidad en comun, 
+heredabilidad y cardinalidad 
+generalizacion: las subclases heredan de forma directa lo que viene de la clase madre sin necesidad de otra funcionalidad, todos estos codigos se generalizan a partir de una clase padre madre
+ 
+tienen otro tipo de estructura que se llama especificacion
+Especificacion: Dice que tiene atributos (ejemplo motor, marca, modelo) tienen estos que son iguales para todos, pero auto, por ejemplo tiene pasajeros; la moto, carrera; camion, carga. 
+Si bien tienen atributos iguales que lo generalizan, cada uno tiene una funcionalidad distinta y opuesta, ya que podriamos pensar que auto tiene pasajeros, pero la moto NO. 
+Para darte cuetna de cual es cual mira las flechas, si va de muchos a uno, es generalizacion, pero si va de uno a muchos, es uan especificacion. 
+Agregacion para agregar cosas que no son indispensables (rombo vacio) para la cosa del auto (rombo pintado)
+Composicion si es lo que compone la clase
+Esto es lo principal que compone la CLASE UML
+Uniones y extensiones, sobre cosas muy puntuales. 
+una extension se hace con lineas punteadas. Extension es algo que afecta la funcionalidad de la clase, pero que si falta no deja de ser clase. Extension decora o alimenta la funcionalidad, explica 
+de que manera funcionaria. Motor a combustible por ejemplo, sabemos que esta explicito, pero si uno lo hace para profundizar puede hacerlo con una flechita punteada, para dar una explicacion
+de la funcionalidad del programa, pero no es necesario de codear
+Herencia 
+
+visibilidad es un factor clave para el encapsulamiento. 
+visibilidad son de tres tipos, por lo pronto vamos a ver publico y privado (protected va en otra clase)
+Lo que es privado va a ser utilizado por la misma clase, cualquier otra clase que quiera acceder a un metodo o atributo privado no va a poder acceder, no lo van a dejar
+El protegido se aplica a la herencia
+Los atributos siempre, pero no como regla de oro, siempre tienen que ser privados, aunque algunas veces puedan ser publicos. Anteriormente cuando los haciamos publicos implicaba que cualquer objeto lo puede modificar
+Los atributos static tenian un punto fijo de memoria, y si es publico, se modifica para todos los objetos que interactuan con el, Si el objeto es publico y se crea una nueva instancia (new), si bien
+se genera una nueva posicion de memoria, y eso lo modifique, va a estar cambiado para esa posicion de memoria. No esta mal, pero no es correcto. No deberia ser valido que cualquier factor mueva el valor primero, sino que nosotros podamos
+darle un metodo que pueda modificar como que pueda devolver el valor (ejemplo del banco) para eso existen los get y set
+Todo atributo privado es accedido por medio de un metodo publico. 
+Entonces si los atributos para vehiculo, 
