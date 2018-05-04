@@ -1,0 +1,14 @@
+microserivcios
+java web
+microservicios
+cada parte de su negocio cada parte su funcionalidad se separe y se maneje con un servicio separado, Se va a manejar una vista, con un framework estilo
+angular 1.x o jquery 
+en capa de negocio podemos usar un microservicio 1 y 2 (nushe) 
+API application persisten interface, un servicio que expone alguna aplicacion o entidad que da una interfaz 
+do lo psdo s uns spp monolitica (?) tengoque ver que JSP uso 
+ver entity
+table
+component
+para ver bases de datos
+localhost myadmin 
+Java para todos
